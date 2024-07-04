@@ -3,11 +3,11 @@
       name: nginx
       state: latest
       
-  - name: start and enable nginx
-    ansible.builtin.service:
-      name: nginx
-      state: started
-      enabled: yes
+  # - name: start and enable nginx
+  #   ansible.builtin.service:
+  #     name: nginx
+  #     state: started
+  #     enabled: yes
 
   # - name: delete default website
   #   ansible.builtin.file:
